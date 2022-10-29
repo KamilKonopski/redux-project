@@ -1,24 +1,24 @@
 .item {
-  margin: 1rem 0;
   background-color: #575757;
+  margin: 1rem 0;
   padding: 1rem;
 }
 
 .item h3 {
-  margin: 0 0 0.5rem 0;
   font-size: 1.75rem;
+  margin: 0 0 0.5rem 0;
 }
 
 .item header {
+  align-items: baseline;
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
 }
 
 .details {
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .quantity span {
@@ -32,9 +32,9 @@
 }
 
 .itemprice {
-  font-weight: normal;
   font-size: 1rem;
   font-style: italic;
+  font-weight: normal;
 }
 
 .actions {
@@ -46,9 +46,9 @@
 .actions button {
   background-color: transparent;
   border: 1px solid white;
+  color: white;
   margin-left: 0.5rem;
   padding: 0.15rem 1rem;
-  color: white;
 }
 
 .actions button:hover,
