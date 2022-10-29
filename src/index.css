@@ -9,18 +9,18 @@ html {
 }
 
 body {
-  margin: 0;
   background-color: #3f3f3f;
+  margin: 0;
 }
 
 button {
-  font: inherit;
-  cursor: pointer;
-  padding: 0.5rem 1.5rem;
-  border-radius: 6px;
   background-color: transparent;
-  color: #1a8ed1;
   border: 1px solid #1a8ed1;
+  border-radius: 6px;
+  color: #1a8ed1;
+  cursor: pointer;
+  font: inherit;
+  padding: 0.5rem 1.5rem;
 }
 
 button:hover,
