@@ -1,4 +1,5 @@
 import ProductItem from "./ProductItem";
+
 import classes from "./Products.module.css";
 
 const DUMMY_PRODUCTS = [
@@ -16,7 +17,7 @@ const DUMMY_PRODUCTS = [
 	},
 ];
 
-const Products = (props) => {
+function Products(props) {
 	return (
 		<section className={classes.products}>
 			<h2>Buy your favorite products</h2>
