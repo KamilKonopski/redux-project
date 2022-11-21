@@ -4,12 +4,12 @@ import { cartActions } from "../../store/cart-slice";
 
 import classes from "./CartItem.module.css";
 
-const CartItem = (props) => {
+function CartItem(props) {
 	const { id, name, quantity, total, price } = props.item;
 
 	const dispatch = useDispatch();
 
-	const addItemHandler = () => {
+	function addItemHandler() {
 		dispatch(
 			cartActions.addItemtoCart({
 				id,
@@ -19,7 +19,7 @@ const CartItem = (props) => {
 		);
 	};
 
-	const removeItemHandler = () => {
+	function removeItemHandler() {
 		dispatch(cartActions.removeItemFromCart(id));
 	};
 
