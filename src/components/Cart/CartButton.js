@@ -4,11 +4,11 @@ import { uiActions } from "../../store/ui-slice";
 
 import classes from "./CartButton.module.css";
 
-const CartButton = (props) => {
+function CartButton(props) {
 	const dispatch = useDispatch();
 	const cartQuantity = useSelector((state) => state.cart.totalQuantity);
 
-	const toggleCartHandler = () => {
+	function toggleCartHandler() {
 		dispatch(uiActions.toggleVisible());
 	};
 
